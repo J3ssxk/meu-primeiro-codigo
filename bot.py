@@ -15,6 +15,9 @@ bot_age = 1
 print(f"Uau, vc tem {user_age} anos! Eu tenho apenas {bot_age} ano!")
 age_difference = user_age - bot_age
 print(f"Nossa diferença de idade é de {age_difference} anos!")
-verification_age = input(f"{user_name}, vc é maior de idade?")
-if user_age = verification_age == 18: True
-else: False
+verification_age = input(f"{user_name}, vc é maior de idade? (sim/não): ")
+if user_age and verification_age == 18 and verification_age == "sim":
+    print(f"Que bom, {user_name}, obrigada por falar a verdade!")
+elif user_age and verification_age != 18 and verification_age =="sim":
+    print("Não minta")
+else: print(f"Que bom, {user_name}, obrigada por falar a verdade!")
